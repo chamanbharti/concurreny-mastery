@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RaceConditionDemo2",
+            "request": "launch",
+            "mainClass": "concurrency.phase2.RaceConditionDemo2",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
+            "name": "RaceConditionDemo",
+            "request": "launch",
+            "mainClass": "concurrency.phase2.RaceConditionDemo",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
             "name": "ApplicationUsingLambdaExpression",
             "request": "launch",
             "mainClass": "concurrency.phase1.ApplicationUsingLambdaExpression",
