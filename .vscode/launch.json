@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ApplicationUsingLambdaExpression",
+            "request": "launch",
+            "mainClass": "concurrency.phase1.ApplicationUsingLambdaExpression",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
+            "name": "ApplicationUsingRunnableThread",
+            "request": "launch",
+            "mainClass": "concurrency.phase1.ApplicationUsingRunnableThread",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "concurrency.phase1.Application",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
             "name": "Application",
             "request": "launch",
             "mainClass": "concurrency.phase0.Application",

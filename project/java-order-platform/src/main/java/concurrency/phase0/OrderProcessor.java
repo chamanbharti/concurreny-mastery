@@ -17,8 +17,8 @@ public class OrderProcessor {
 
     public void process(Order order) {
 
-        System.out.println(
-                "Processing order: " + order.orderId()
+        System.out.printf(
+                "[%s] Processing %s%n",Thread.currentThread().getName(),order.orderId()
         );
 
         if (!inventoryService.isAvailable(order)) {
