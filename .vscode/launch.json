@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RaceConditionReentrantLock",
+            "request": "launch",
+            "mainClass": "concurrency.phase3.RaceConditionReentrantLock",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
+            "name": "RaceConditionDemo2",
+            "request": "launch",
+            "mainClass": "concurrency.phase3.RaceConditionDemo2",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
+            "name": "RaceConditionDemo",
+            "request": "launch",
+            "mainClass": "concurrency.phase3.RaceConditionDemo",
+            "projectName": "java-order-platform"
+        },
+        {
+            "type": "java",
             "name": "RaceConditionDemo2",
             "request": "launch",
             "mainClass": "concurrency.phase2.RaceConditionDemo2",
